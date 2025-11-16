@@ -2,8 +2,12 @@
 const path = require("path");
 
 // External Module
-import dotenv from "dotenv";
+const dotenv = require("dotenv");
 dotenv.config();
+
+
+console.log("Server starting...");
+
 
 const express = require("express");
 const session = require("express-session");
